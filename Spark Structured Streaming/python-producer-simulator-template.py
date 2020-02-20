@@ -13,6 +13,7 @@ import random
 import time
 
 ## Configuration section
+iextoken = '' #An iexToken to use if you want to connect with the iex for stock quotes
 stockList = ['msft', 'ba', 'jnj', 'f', 'tsla', 'bac', 'ge', 'mmm', 'intc', 'wmt']
 # Use this dictionary to generate random prices for each stock based on mean and standard deviation
 stockMeanPrices = 	{'msft':{"mean":152, "stddev":5}, 'ba':{"mean":345, "stddev":10}, 'jnj':{"mean":141, "stddev":10}, 'f':{"mean":9, "stddev":1}, 'tsla':{"mean":330, "stddev":10}, \
